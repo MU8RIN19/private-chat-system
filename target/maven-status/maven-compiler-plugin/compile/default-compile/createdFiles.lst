@@ -1,0 +1,6 @@
+com\M19\PrivateMessageSystem\Group.class
+com\M19\PrivateMessageSystem\groupCommand.class
+com\M19\PrivateMessageSystem\replyCommand.class
+com\M19\PrivateMessageSystem\Main.class
+com\M19\PrivateMessageSystem\messageCommand.class
+com\M19\PrivateMessageSystem\blockCommand.class

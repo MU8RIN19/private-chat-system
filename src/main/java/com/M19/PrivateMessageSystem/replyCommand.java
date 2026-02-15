@@ -49,8 +49,8 @@ public class replyCommand implements CommandExecutor {
                         for (int i = 0; i < args.length; i++){
                             builder.append(args[i]).append(' ');
                         }
-                        player.sendMessage(ChatColor.YELLOW + "You -> " + target.getName() + ' ');
-                        target.sendMessage(ChatColor.YELLOW + player.getName() + " -> You: " + builder);
+                        player.sendMessage(ChatColor.GREEN + "You -> " + ChatColor.AQUA + target.getName() + ' ');
+                        target.sendMessage(ChatColor.YELLOW + player.getName() + " -> You: " + ChatColor.AQUA + builder);
 
                         main.getRecentMessages().put(player.getUniqueId(), target.getUniqueId());
                     }else{
